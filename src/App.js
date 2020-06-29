@@ -1,12 +1,17 @@
 import React from "react";
 import Nav from "./Nav";
-import "./App.css";
+import Dealer from "./Dealer";
+import PageContent from "./PageContent";
+import { ThemeProvider } from "./contexts/ThemeContext";
 
 function App() {
   return (
-    <div className="App">
-      <Nav />
-    </div>
+    <ThemeProvider>
+      <PageContent>
+        <Nav />
+        <Dealer />
+      </PageContent>
+    </ThemeProvider>
   );
 }
 

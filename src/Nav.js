@@ -1,15 +1,25 @@
-import React from "react";
+import React, { useContext } from "react";
+
 import { NavLink } from "react-router-dom";
 import "./Nav.css";
+import { ThemeContext } from "./contexts/ThemeContext";
 
 export default function Nav(props) {
+  const { isDarkMode, toggleTheme } = useContext(ThemeContext);
   return (
     <div className="Nav">
-      <nav className="navbar navbar-expand-md fixed-top">
+      <nav
+        className={
+          isDarkMode
+            ? "navbar navbar-expand-md dark fixed-top"
+            : "navbar navbar-expand-md light fixed-top"
+        }
+      >
         <div className="container">
           <NavLink className="navbar-brand" exact to="/">
             Oracle
           </NavLink>
+
           <button
             className="navbar-toggler"
             type="button"
@@ -20,7 +30,7 @@ export default function Nav(props) {
             aria-label="Toggle navigation"
           >
             <span className="navbar-toggler-icon">
-              <i class="fas fa-bars"></i>
+              <i className="fas fa-bars"></i>
             </span>
           </button>
           <div
@@ -54,6 +64,17 @@ export default function Nav(props) {
               </NavLink>
             </div>
           </div>
+        </div>
+        <div className="custom-control custom-switch">
+          <input
+            type="checkbox"
+            onChange={toggleTheme}
+            className="custom-control-input"
+            id="customSwitch1"
+          />
+          <label className="custom-control-label pr-3" htmlFor="customSwitch1">
+            Invert Colors
+          </label>
         </div>
       </nav>
     </div>

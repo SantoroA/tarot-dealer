@@ -1,21 +1,25 @@
-.Nav .navbar {
+.Nav .navbar.light,
+.Nav .navbar.light a,
+.Nav .navbar.light .navbar-toggler-icon {
   background-color: #45046a;
+  color: #f1ebbb;
 }
+.Nav .navbar.dark,
+.Nav .navbar.dark a,
+.Nav .navbar.dark .navbar-toggler-icon {
+  background-color: #f1ebbb;
+  color: #45046a;
+}
+
 .Nav .navbar-brand {
   font-family: "Cinzel Decorative", cursive;
   font-size: 1.4em;
 }
-.Nav a {
-  color: #f1ebbb;
-}
+
 .Nav .nav-link {
   font-weight: 400;
   font-size: 1.1em;
 }
-.Nav .navbar .navbar-toggler-icon {
+.navbar-toggler-icon {
   height: 100%;
-  color: #f1ebbb;
-}
-.Nav a.social-media {
-  font-size: 1.4rem;
 }

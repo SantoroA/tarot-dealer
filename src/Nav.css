@@ -1,0 +1,21 @@
+.Nav .navbar {
+  background-color: #45046a;
+}
+.Nav .navbar-brand {
+  font-family: "Cinzel Decorative", cursive;
+  font-size: 1.4em;
+}
+.Nav a {
+  color: #f1ebbb;
+}
+.Nav .nav-link {
+  font-weight: 400;
+  font-size: 1.1em;
+}
+.Nav .navbar .navbar-toggler-icon {
+  height: 100%;
+  color: #f1ebbb;
+}
+.Nav a.social-media {
+  font-size: 1.4rem;
+}

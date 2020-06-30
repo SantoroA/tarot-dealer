@@ -1,12 +1,15 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import TarotCard from "./TarotCard";
 import { decks } from "./TarotDecks/decks";
 import { choice } from "./helpers";
+import { ThemeContext } from "./contexts/ThemeContext";
+import "./Dealer.css";
 
 export default function Dealer() {
   const [initialDeck, setInitialDeck] = useState(decks);
   const [dealtCards, setDealtCards] = useState([]);
   const [currCard, setCurrCard] = useState(null);
+  const { isDarkMode } = useContext(ThemeContext);
 
   function dealCard() {
     const newCard = choice(initialDeck);
@@ -16,12 +19,16 @@ export default function Dealer() {
     setDealtCards([...dealtCards, newCard]);
   }
   return (
-    <div className="container">
-      <h1>Hi</h1>
-      <div className="row">
+    <div className="Dealer pt-5 container">
+      <div className="row mt-5">
         {currCard && dealtCards.map((card) => <TarotCard card={card} />)}
       </div>
-      <button onClick={dealCard}>Deal</button>
+      <button
+        className={isDarkMode ? "btn dark mt-5" : "btn mt-5 light"}
+        onClick={dealCard}
+      >
+        Deal
+      </button>
     </div>
   );
 }

@@ -6,8 +6,8 @@ export default function PageContent(props) {
   const styles = {
     backgroundColor: isDarkMode ? "#45046a" : "#f1ebbb",
     color: isDarkMode ? "#f1ebbb" : "#45046a",
-    height: "100vh",
-    width: "100vw",
+    minHeight: "100vh",
+    minWidth: "100vw",
     textAlign: "center",
   };
   return <div style={styles}>{props.children}</div>;

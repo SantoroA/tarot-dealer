@@ -398,25 +398,151 @@ export const decks = [
       "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/S07.jpg",
     stempunkUrl: "",
   },
-  { id: 57, name: "Eight of Swords", illuminatiUrl: "", stempunkUrl: "" },
-  { id: 58, name: "Nine of Swords", illuminatiUrl: "", stempunkUrl: "" },
-  { id: 59, name: "Ten of Swords", illuminatiUrl: "", stempunkUrl: "" },
-  { id: 60, name: "Page of Swords", illuminatiUrl: "", stempunkUrl: "" },
-  { id: 61, name: "Knight of Swords", illuminatiUrl: "", stempunkUrl: "" },
-  { id: 62, name: "Queen of Swords", illuminatiUrl: "", stempunkUrl: "" },
-  { id: 63, name: "King of Swords", illuminatiUrl: "", stempunkUrl: "" },
-  { id: 64, name: "Ace of Pentacles", illuminatiUrl: "", stempunkUrl: "" },
-  { id: 65, name: "Two of Pentacles", illuminatiUrl: "", stempunkUrl: "" },
-  { id: 66, name: "Three of Pentacles", illuminatiUrl: "", stempunkUrl: "" },
-  { id: 67, name: "Four of Pentacles", illuminatiUrl: "", stempunkUrl: "" },
-  { id: 68, name: "Five of Pentacles", illuminatiUrl: "", stempunkUrl: "" },
-  { id: 69, name: "Six of Pentacles", illuminatiUrl: "", stempunkUrl: "" },
-  { id: 70, name: "Seven of Pentacles", illuminatiUrl: "", stempunkUrl: "" },
-  { id: 71, name: "Eight of Pentacles", illuminatiUrl: "", stempunkUrl: "" },
-  { id: 72, name: "Nine of Pentacles", illuminatiUrl: "", stempunkUrl: "" },
-  { id: 73, name: "Ten of Pentacles", illuminatiUrl: "", stempunkUrl: "" },
-  { id: 74, name: "Page of Pentacles", illuminatiUrl: "", stempunkUrl: "" },
-  { id: 75, name: "Knight of Pentacles", illuminatiUrl: "", stempunkUrl: "" },
-  { id: 76, name: "Queen of Pentacles", illuminatiUrl: "", stempunkUrl: "" },
-  { id: 77, name: "King of Pentacles", illuminatiUrl: "", stempunkUrl: "" },
+  {
+    id: 57,
+    name: "Eight of Swords",
+    illuminatiUrl:
+      "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/S08.jpg",
+    stempunkUrl: "",
+  },
+  {
+    id: 58,
+    name: "Nine of Swords",
+    illuminatiUrl:
+      "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/S09.jpg",
+    stempunkUrl: "",
+  },
+  {
+    id: 59,
+    name: "Ten of Swords",
+    illuminatiUrl:
+      "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/S10.jpg",
+    stempunkUrl: "",
+  },
+  {
+    id: 60,
+    name: "Page of Swords",
+    illuminatiUrl:
+      "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/SC1P.jpg",
+    stempunkUrl: "",
+  },
+  {
+    id: 61,
+    name: "Knight of Swords",
+    illuminatiUrl:
+      "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/SC2P.jpg",
+    stempunkUrl: "",
+  },
+  {
+    id: 62,
+    name: "Queen of Swords",
+    illuminatiUrl:
+      "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/SC3Q.jpg",
+    stempunkUrl: "",
+  },
+  {
+    id: 63,
+    name: "King of Swords",
+    illuminatiUrl:
+      "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/SC4K.jpg",
+    stempunkUrl: "",
+  },
+  {
+    id: 64,
+    name: "Ace of Pentacles",
+    illuminatiUrl:
+      "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/P01.jpg",
+    stempunkUrl: "",
+  },
+  {
+    id: 65,
+    name: "Two of Pentacles",
+    illuminatiUrl:
+      "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/P02.jpg",
+    stempunkUrl: "",
+  },
+  {
+    id: 66,
+    name: "Three of Pentacles",
+    illuminatiUrl:
+      "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/P03.jpg",
+    stempunkUrl: "",
+  },
+  {
+    id: 67,
+    name: "Four of Pentacles",
+    illuminatiUrl:
+      "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/P04.jpg",
+    stempunkUrl: "",
+  },
+  {
+    id: 68,
+    name: "Five of Pentacles",
+    illuminatiUrl:
+      "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/P05.jpg",
+    stempunkUrl: "",
+  },
+  {
+    id: 69,
+    name: "Six of Pentacles",
+    illuminatiUrl:
+      "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/P06.jpg",
+    stempunkUrl: "",
+  },
+  {
+    id: 70,
+    name: "Seven of Pentacles",
+    illuminatiUrl:
+      "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/P07.jpg",
+    stempunkUrl: "",
+  },
+  {
+    id: 71,
+    name: "Eight of Pentacles",
+    illuminatiUrl:
+      "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/P08.jpg",
+    stempunkUrl: "",
+  },
+  {
+    id: 72,
+    name: "Nine of Pentacles",
+    illuminatiUrl:
+      "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/P09.jpg",
+    stempunkUrl: "",
+  },
+  {
+    id: 73,
+    name: "Ten of Pentacles",
+    illuminatiUrl:
+      "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/P10.jpg",
+    stempunkUrl: "",
+  },
+  {
+    id: 74,
+    name: "Page of Pentacles",
+    illuminatiUrl:
+      "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/PC1P.jpg",
+    stempunkUrl: "",
+  },
+  {
+    id: 75,
+    name: "Knight of Pentacles",
+    illuminatiUrl:
+      "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/PC2P.jpg",
+    stempunkUrl: "",
+  },
+  {
+    id: 76,
+    name: "Queen of Pentacles",
+    illuminatiUrl:
+      "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/PC3Q.jpg",
+    stempunkUrl: "",
+  },
+  {
+    id: 77,
+    name: "King of Pentacles",
+    illuminatiUrl:
+      "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/PC4K.jpg",
+    stempunkUrl: "",
+  },
 ];

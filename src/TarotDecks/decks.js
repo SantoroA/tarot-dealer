@@ -251,27 +251,153 @@ export const decks = [
       "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/WC4K.jpg",
     stempunkUrl: "",
   },
-  { id: 36, name: "Ace of Cups", illuminatiUrl: "", stempunkUrl: "" },
-  { id: 37, name: "Two of Cups", illuminatiUrl: "", stempunkUrl: "" },
-  { id: 38, name: "Three of Cups", illuminatiUrl: "", stempunkUrl: "" },
-  { id: 39, name: "Four of Cups", illuminatiUrl: "", stempunkUrl: "" },
-  { id: 40, name: "Five of Cups", illuminatiUrl: "", stempunkUrl: "" },
-  { id: 41, name: "Six of Cups", illuminatiUrl: "", stempunkUrl: "" },
-  { id: 42, name: "Seven of Cups", illuminatiUrl: "", stempunkUrl: "" },
-  { id: 43, name: "Eight of Cups", illuminatiUrl: "", stempunkUrl: "" },
-  { id: 44, name: "Nine of Cups", illuminatiUrl: "", stempunkUrl: "" },
-  { id: 45, name: "Ten of Cups", illuminatiUrl: "", stempunkUrl: "" },
-  { id: 46, name: "Page of Cups", illuminatiUrl: "", stempunkUrl: "" },
-  { id: 47, name: "Knight of Cups", illuminatiUrl: "", stempunkUrl: "" },
-  { id: 48, name: "Queen of Cups", illuminatiUrl: "", stempunkUrl: "" },
-  { id: 49, name: "King of Cups", illuminatiUrl: "", stempunkUrl: "" },
-  { id: 50, name: "Ace of Swords", illuminatiUrl: "", stempunkUrl: "" },
-  { id: 51, name: "Two of Swords", illuminatiUrl: "", stempunkUrl: "" },
-  { id: 52, name: "Three of Swords", illuminatiUrl: "", stempunkUrl: "" },
-  { id: 53, name: "Four of Swords", illuminatiUrl: "", stempunkUrl: "" },
-  { id: 54, name: "Five of Swords", illuminatiUrl: "", stempunkUrl: "" },
-  { id: 55, name: "Six of Swords", illuminatiUrl: "", stempunkUrl: "" },
-  { id: 56, name: "Seven of Swords", illuminatiUrl: "", stempunkUrl: "" },
+  {
+    id: 36,
+    name: "Ace of Cups",
+    illuminatiUrl:
+      "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/C01.jpg",
+    stempunkUrl: "",
+  },
+  {
+    id: 37,
+    name: "Two of Cups",
+    illuminatiUrl:
+      "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/C02.jpg",
+    stempunkUrl: "",
+  },
+  {
+    id: 38,
+    name: "Three of Cups",
+    illuminatiUrl:
+      "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/C03.jpg",
+    stempunkUrl: "",
+  },
+  {
+    id: 39,
+    name: "Four of Cups",
+    illuminatiUrl:
+      "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/C04.jpg",
+    stempunkUrl: "",
+  },
+  {
+    id: 40,
+    name: "Five of Cups",
+    illuminatiUrl:
+      "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/C05.jpg",
+    stempunkUrl: "",
+  },
+  {
+    id: 41,
+    name: "Six of Cups",
+    illuminatiUrl:
+      "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/C06.jpg",
+    stempunkUrl: "",
+  },
+  {
+    id: 42,
+    name: "Seven of Cups",
+    illuminatiUrl:
+      "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/C07.jpg",
+    stempunkUrl: "",
+  },
+  {
+    id: 43,
+    name: "Eight of Cups",
+    illuminatiUrl:
+      "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/C08.jpg",
+    stempunkUrl: "",
+  },
+  {
+    id: 44,
+    name: "Nine of Cups",
+    illuminatiUrl:
+      "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/C09.jpg",
+    stempunkUrl: "",
+  },
+  {
+    id: 45,
+    name: "Ten of Cups",
+    illuminatiUrl:
+      "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/C10.jpg",
+    stempunkUrl: "",
+  },
+  {
+    id: 46,
+    name: "Page of Cups",
+    illuminatiUrl:
+      "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/CC1P.jpg",
+    stempunkUrl: "",
+  },
+  {
+    id: 47,
+    name: "Knight of Cups",
+    illuminatiUrl:
+      "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/CC2P.jpg",
+    stempunkUrl: "",
+  },
+  {
+    id: 48,
+    name: "Queen of Cups",
+    illuminatiUrl:
+      "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/CC3Q.jpg",
+    stempunkUrl: "",
+  },
+  {
+    id: 49,
+    name: "King of Cups",
+    illuminatiUrl:
+      "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/CC4K.jpg",
+    stempunkUrl: "",
+  },
+  {
+    id: 50,
+    name: "Ace of Swords",
+    illuminatiUrl:
+      "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/S01.jpg",
+    stempunkUrl: "",
+  },
+  {
+    id: 51,
+    name: "Two of Swords",
+    illuminatiUrl:
+      "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/S02.jpg",
+    stempunkUrl: "",
+  },
+  {
+    id: 52,
+    name: "Three of Swords",
+    illuminatiUrl:
+      "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/S03.jpg",
+    stempunkUrl: "",
+  },
+  {
+    id: 53,
+    name: "Four of Swords",
+    illuminatiUrl:
+      "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/S04.jpg",
+    stempunkUrl: "",
+  },
+  {
+    id: 54,
+    name: "Five of Swords",
+    illuminatiUrl:
+      "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/S05.jpg",
+    stempunkUrl: "",
+  },
+  {
+    id: 55,
+    name: "Six of Swords",
+    illuminatiUrl:
+      "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/S06.jpg",
+    stempunkUrl: "",
+  },
+  {
+    id: 56,
+    name: "Seven of Swords",
+    illuminatiUrl:
+      "http://www.marytcusack.com/maryc/decks/Images/Tarot/Illuminati/S07.jpg",
+    stempunkUrl: "",
+  },
   { id: 57, name: "Eight of Swords", illuminatiUrl: "", stempunkUrl: "" },
   { id: 58, name: "Nine of Swords", illuminatiUrl: "", stempunkUrl: "" },
   { id: 59, name: "Ten of Swords", illuminatiUrl: "", stempunkUrl: "" },

@@ -24,7 +24,7 @@ export default function Dealer() {
         {currCard && dealtCards.map((card) => <TarotCard card={card} />)}
       </div>
       <button
-        className={isDarkMode ? "btn dark mt-5" : "btn mt-5 light"}
+        className={isDarkMode ? "btn dark" : "btn  light"}
         onClick={dealCard}
       >
         Deal

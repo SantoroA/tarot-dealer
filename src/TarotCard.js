@@ -5,10 +5,9 @@ import useToggle from "./hooks/useToggle";
 export default function TarotCard(props) {
   const [isBig, toggleIsBig] = useToggle(false);
   return (
-    <div className="TarotCard col-3">
+    <div className={isBig ? "TarotCard col-12" : "TarotCard col-3"}>
       <img
-        onMouseEnter={toggleIsBig}
-        onMouseOut={toggleIsBig}
+        onClick={toggleIsBig}
         src={props.card.illuminatiUrl}
         alt={props.card.name}
         className={isBig ? "big" : "regular"}

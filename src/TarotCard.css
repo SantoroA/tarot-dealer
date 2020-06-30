@@ -1,11 +1,7 @@
 .TarotCard img {
   border-radius: 0.5em;
 }
-.TarotCard .big {
-  height: 80vh;
-  z-index: 1;
-  position: relative;
-}
+
 .TarotCard .regular {
   width: 100%;
 }

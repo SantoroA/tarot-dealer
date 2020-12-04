@@ -1,6 +1,6 @@
 import React from 'react';
 import './TarotCard.css';
-import useToggle from './hooks/useToggle';
+// import useToggle from './hooks/useToggle';
 
 export default function TarotCard(props) {
 	// const [ isBig, toggleIsBig ] = useToggle(false);
